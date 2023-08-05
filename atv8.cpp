@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main(){
-	float raio, altura;
+	
+    float raio, altura;
     float area, volume;
     float pi = 3.14;
 	
@@ -18,7 +19,7 @@ int main(){
 	area = areaLat + areaBase;
 	volume = pi * raio * raio * altura;
 	
-	//Saída 
+	//SaÃ­da 
 	
 	printf("raio = %.2f\n" ,raio);
 	printf("altura = %.2f\n" ,altura);
